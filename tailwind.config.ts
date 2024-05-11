@@ -16,5 +16,11 @@ const config: Config = {
     },
   },
   plugins: [],
+  variants: {
+    extend: {
+      opacity: ["disabled"],
+    },
+  },
+  
 };
 export default config;
